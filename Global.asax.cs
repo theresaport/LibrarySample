@@ -8,6 +8,7 @@ namespace Library
     {
         protected void Application_Start()
         {
+            //config.EnableCors();
             GlobalConfiguration.Configure(WebApiConfig.Register);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
         }

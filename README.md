@@ -27,7 +27,7 @@ Please do not add any further external dependencies to your solution.
 
 3. The caller should then be able to send a string (min 3 characters), and receive back a list of all words which begin with that string from the specified book, e.g. “GET /api/books/1?query=Wha”.
 
-    * Case-matching is insensitive.//
+    * Case-matching is insensitive.
 
     * The logic encapsulated by these calls should be supported and verified by at least one unit test.
 
